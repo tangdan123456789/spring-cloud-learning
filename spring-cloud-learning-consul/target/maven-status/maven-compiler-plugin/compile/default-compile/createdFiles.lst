@@ -1,1 +1,4 @@
-com\spring\cloud\learning\consul\App.class
+com\spring\cloud\learning\consul\config\StudentConfig.class
+com\spring\cloud\learning\consul\Application.class
+META-INF\spring-configuration-metadata.json
+com\spring\cloud\learning\consul\controller\StudentController.class

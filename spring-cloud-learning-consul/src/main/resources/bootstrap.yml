@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: consul-service
+  cloud:
+    consul:
+      host: 192.168.100.6
+      port: 8988
+      enabled: true
+      config:
+        prefix: config
+        data-key: data
+        format: YAML
+        default-context: ${spring.application.name}
+        watch:
+          enabled: true
+      discovery:
+        enabled: true
+        tags: protocol_config
+        service-name: ${spring.application.name}
+        instance-id: ${spring.application.name}
+        hostname: ${spring.cloud.consul.host}
+        port: ${server.port}
+        health-check-interval: 10s
+        health-check-url: http://192.168.100.8:${server.port}/health
+        heartbeat:
+          enabled: true
+  profiles:
+    active: dev
+server:
+  port: 8081
