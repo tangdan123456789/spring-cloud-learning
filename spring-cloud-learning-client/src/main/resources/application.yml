@@ -1,0 +1,10 @@
+spring.application.name: eureka-client
+server.port: 9001
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+
+info:
+  groupId: com.tingcream.sim
+  artifactId: sim-provider
+  version: 0.0.1-SNAPSHOT
+  developer: 张三
+  email: zhangsan@example.com
