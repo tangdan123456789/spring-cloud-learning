@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f96006-7769-4cae-9894-e571cd178089" name="Default Changelist" comment="" />
+    <list default="true" id="51f96006-7769-4cae-9894-e571cd178089" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-learning-service/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-learning-client/target/" />
@@ -15,8 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-learning-service/src/main/java/com/spring/cloud/learning/service/controller/StudyInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="380">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,6 +206,51 @@
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-learning-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +274,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -315,12 +361,20 @@
       <option name="presentableId" value="Default" />
       <updated>1563591007339</updated>
       <workItem from="1563591012711" duration="13368000" />
-      <workItem from="1563624763965" duration="1225000" />
+      <workItem from="1563624763965" duration="1852000" />
     </task>
+    <task id="LOCAL-00001" summary="新增springcloud项目">
+      <created>1563627504368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563627504368</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14593000" />
+    <option name="totallyTimeSpent" value="15220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -362,6 +416,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增springcloud项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增springcloud项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-cloud-learning-eureka/src/main/java/com/spring/cloud/learning/eureka/App.java" />
@@ -488,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-learning-service/src/main/java/com/spring/cloud/learning/service/controller/StudyInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="380">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
